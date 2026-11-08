@@ -10,7 +10,6 @@ audio and an ALSA plugin, packaged for the AUR.
 makepkg -si
 sudo systemctl mask --now bluetooth.service
 sudo usermod -aG bluetooth "$USER"      # then log in again
-sudo modprobe uhid && sudo udevadm trigger /dev/uhid
 sudo systemctl enable --now bluetooth-daemon
 bluetooth
 ```
