@@ -34,7 +34,7 @@ receives.
 | `/usr/bin/bluetooth-daemon` | the daemon that owns the adapter, the pairing keys and the connections |
 | `/usr/lib/systemd/system/bluetooth-daemon.service` | system service of the daemon |
 | `/usr/lib/sysusers.d/bluetooth-daemon.conf` | the user and group `bluetooth` |
-| `/usr/lib/udev/rules.d/70-bluetooth-uhid.rules` | gives `/dev/uhid` to the group `bluetooth` |
+| `/usr/lib/udev/rules.d/71-bluetooth-uhid.rules` | gives `/dev/uhid` to the group `bluetooth` |
 | `/usr/lib/modules-load.d/bluetooth-daemon.conf` | loads the `uhid` module at boot |
 | `/usr/lib/alsa-lib/libasound_module_pcm_bluetooth.so` | the `bluetooth` ALSA plugin |
 | `/usr/share/alsa/alsa.conf.d/99-bluetooth.conf` | the PCMs `bluetooth_out` and `bluetooth_in` |
